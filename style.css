@@ -1,0 +1,311 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.about-section{
+  height: 500px;
+  width: 100%;
+  background-color: whitesmoke;
+}
+.aboutmain{
+  height: 500px;
+  width: 100%;
+  display: flex;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+.aboutmain div{
+  height: 500px;
+  width: 50%;
+}
+.minion{
+  height: 400px;
+  width: 50%;
+  margin-top: 50px;
+  margin-left: 90px;
+  animation-duration: 4s;
+  animation-name: zoom;
+  animation-iteration-count: 1;
+}
+@keyframes zoom{
+  100%{
+    transform: scale(1.2);
+    border: radius 60px;
+  }
+}
+.heading{
+  font-family: Arial black;
+  text-align: center;
+  margin: 30px 0px;
+  font-size: 40px;
+  color: royalblue;
+}
+.carrerobj{
+  padding: 30px;
+}
+.carrerinfo{
+  text-align: justify;
+  line-height: 40px;
+  text-indent: 100px;
+  word-spacing: 7px;
+  letter-spacing: 1px;
+}
+.portfolio-sections{
+    height: 500px;
+    width: 100%;
+    border: 2px solid black;
+    background-color: white;
+}
+.navigation-bar{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    z-index: 1;
+    
+}
+.portfolio-sections h1{
+    margin-top: 50px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.main-containers{
+    position: relative;
+    top:50px;
+}
+.brand{
+    font-size: 30px;
+    font-family: Arial Black;
+    font-variant: small-caps;
+    color: orangered;
+}
+.navmenu{
+    color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    padding-left: 15px;
+}
+.navmenu:hover{
+    text-decoration: underline 2px solid black;
+    text-underline-offset: 6px;
+    
+}
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+ @-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+#home{
+  margin-top: 25px;
+   height: 370px;
+   background-image: url("https://blog.kiprosh.com/content/images/2022/01/rolling_chair_reel_monchomasse.gif");
+   background-repeat: no-repeat;
+   background-size:45%;
+   background-position:90% 20%;
+   border: none;
+}
+
+#home-info{
+    position: absolute;
+    top: 20px;
+    width: 400px;
+    height: 250px;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.info{
+    font-weight: bolder;
+    color: lightslategray;
+}
+.designation{
+    color: royalblue;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.myname{
+    font-size: 35px;
+}
+.rsmbtn{
+    height: 40px;
+    width: 100px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size:15px;
+    font-weight: bolder;
+    background-color: royalblue;
+    color: white;
+    transition-duration: 1s;
+}
+.rsmbtn:hover{
+    background-color: white;
+    color: royalblue;
+    border: 3px solid royalblue;
+   
+    transform: scale(1.1);
+}
+#skills{
+  height: 600px;
+  width: 100%;
+  background-color: white;
+}
+.tbl{
+  margin-left: 5%;
+  overflow: hidden;
+}
+.skills-subheading{
+  color: orangered;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 25px;
+  font-variant: small-caps;
+}
+.detailedSkills{
+  font-size: 23px;
+  font-weight: bolder;
+  color: rgb(109, 101, 101);
+  line-height: 40px;
+  word-spacing: 3px;
+  margin-top: 20px;
+}
+.tbl tr td:hover{
+  transform: scale(1.05);
+  box-shadow: 0px 0px 5px royalblue;
+}
+.tbl tr td{
+  width: 45%;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px blueviolet;
+  transition-duration: 1.5s;
+  margin: 25px;
+  float: left;
+  height: 200px;
+/*    display: flex;*/
+  align-items: center;
+  justify-content: center;
+}
+#project{
+  height: 660px;
+  width: 100%;
+  padding: 10px;
+}
+.project-card-container{
+  padding: 20px;
+  margin-top: 20px;
+}
+.heading{
+  color: royalblue;
+  font-family: Arial ;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 35;
+}
+.card-title{
+  color: orangered;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+.card-title:hover{
+  text-decoration: underline 2px solid orangered;
+  text-underline-offset: 5px;
+  cursor: pointer;
+}
+#contact{
+  height: 500px;
+  width: 100%;
+  background-color: whitesmoke;
+  padding: 20px;
+}
+.main-container{
+  height: 400px;
+  width: 80%;
+  display: flex;
+  margin-left: 10%;
+}
+.contact-child{
+  height: 400px;
+  width: 50%;
+}
+.contact-info{
+  font-size: 18;
+  font-family: sans-serif;
+  font-weight: bolder;
+  margin-top: 70px;
+}
+.contact-info li{
+  margin-top: 20px;
+}
+.contact-form{
+  padding: 15px;
+  padding-left: 70px;
+  margin-top: 50px;
+}
+#footer{
+  height: 50px;
+  width: 100%;
+  background-color: royalblue;
+  text-align: center;
+}
+#footerinfo{
+  font-size: 20px;
+  line-height: 50px;
+  color: white;
+}
+.scale-in-center {
+  -webkit-animation: scale-in-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          animation: scale-in-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes scale-in-center {
+0% {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  opacity: 1;
+}
+100% {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  opacity: 1;
+}
+}
+@keyframes scale-in-center {
+0% {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  opacity: 1;
+}
+100% {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  opacity: 1;}
+}
